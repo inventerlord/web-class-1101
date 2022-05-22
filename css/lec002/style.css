@@ -1,0 +1,23 @@
+html,body{
+    /* height:100%; */
+    width:100%;
+    margin:0;
+    padding: 0;
+}
+#box{
+    height:100%;
+    width:100%;
+    /* background-color:#48bbdb; */
+    /* background-image: url('1.png'); */
+    /* background-repeat:no-repeat; */
+    /* background-repeat: no-repeat; */
+    background: url('1.png') no-repeat center center;
+    background-attachment: fixed;
+    /* background-position: bottom center; */
+    /* background-size: 100% 100%; */
+    font-size: 50px;
+}
+
+.noRep{
+    white-space:wrap;
+}
