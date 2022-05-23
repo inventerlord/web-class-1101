@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="Faiz Raza">
+</head>
+<body id="overview">
+    <button onclick="document.getElementById('overview').style.backgroundColor = 'pink'" type="button">Change me</button>
+
+    <button onclick="document.getElementById('overview').style.backgroundColor = 'white'" type="button">Undu me</button>
+    <!-- 3 types of list -->
+    <!-- un orderd list -->
+    <ul>
+        <li>Chicken Krahi</li>
+        <li>Plaow</li>
+        <li>Biryani</li>
+        <li>mutton</li>
+    </ul>
+
+    <!-- orderd list -->
+    <ol type="I">
+        <li>Chicken Krahi</li>
+        <li>Plaow</li>
+        <li>Biryani</li>
+        <li>mutton</li>
+    </ol>
+
+    <!-- description list -->
+    <dl>
+        <dt>Food</dt>
+        <dd>Chicken Krahi</dd>
+        <dd>Plaow</dd>
+        <dd>Biryani</dd>
+        <dd>mutton</dd>
+        <dt>Drinks</dt>
+        <dd>Pepsi</dd>
+        <dd>lemon</dd>
+        <dd>Poison</dd>
+        <dt>Sweets</dt>
+        <dd>gulaab jamn</dd>
+        <dd>brfi</dd>
+        <dd>swiya</dd>
+        <dd>kheer</dd>
+    </dl>
+    <p id="mytag"></p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d855.2744485570571!2d70.93886382919098!3d30.967752998847217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e804b9a7d00b07b!2zMzDCsDU4JzAzLjkiTiA3MMKwNTYnMjEuOSJF!5e0!3m2!1sen!2s!4v1652631439979!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <script>
+        document.getElementById("mytag").innerHTML = Date();
+    </script>
+</body>
+</html>

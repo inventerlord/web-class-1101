@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <marquee>
+        I am Fiaz Raza
+    </marquee>
+    <div style="width:300px;height:200px;overflow:hidden;resize:both">
+      <video id="vid"  style="width:100%;height:100%;object-fit:fill;">
+        <source src="Laravel_Jetstream__Blade_Components_(free_lesson_from_upcoming_course)_[pYIrRYGgVAI]_[tag22].mp4" type="video/mp4">
+    </video>  
+    </div>
+    <audio controls>
+        <source src="" type="audio/mp3">
+    </audio>
+    <button type="button" onclick="playVid()">play</button>
+    <button type="button" onclick="stopVid()">Pause</button>
+    <script>
+        function playVid(){
+            document.getElementById('vid').play();
+        }
+        function stopVid(){
+            document.getElementById('vid').pause();
+        }
+        let video = document.getElementById('cam');
+        
+    
+    </script>
+</body>
+</html>
