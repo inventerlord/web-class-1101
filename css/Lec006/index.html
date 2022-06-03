@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/fontawesome6/css/all.min.css" />
+
+    <style>
+      li {
+        overflow: hidden;
+      }
+
+      .required::after {
+        content: "*";
+        color: red;
+        margin: 0 3px;
+      }
+      .hilighted {
+        position: relative;
+        overflow: hidden;
+      }
+      .hilighted::before {
+        content: "";
+        position: absolute;
+        background-color: green;
+        height: 2px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        transform: translateX(-100%);
+        transition: 0.5s;
+      }
+      li:hover .hilighted::before {
+        transform: translateX(0);
+      }
+    </style>
+  </head>
+  <body>
+    <i class="fa fa-home"></i>
+    <ul style="list-style-type: none">
+      <li><a class="hilighted">Hamza</a></li>
+      <li>John</li>
+      <li><a class="hilighted">Salmaan</a></li>
+      <li>Faiz</li>
+      <li>Ali</li>
+    </ul>
+    <label class="required" style="display: block">Username</label>
+    <input />
+    <label class="required" style="display: block">Username</label>
+    <input />
+    <label class="required" style="display: block">Username</label>
+    <input />
+  </body>
+</html>
